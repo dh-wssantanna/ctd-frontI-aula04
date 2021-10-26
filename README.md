@@ -162,7 +162,7 @@ Conselho o uso das seguintes ferramentas:
 - https://validator.w3.org/
 
 ## Link(s):
-- https://developer.mozilla.org/pt-BR/docs/Web/Reference
+- https://developer.mozilla.org/pt-BR/docs/Web/Guide
 - https://www.w3.org/standards/webdesign/
 - https://html.spec.whatwg.org/
 - https://www.w3schools.com/
