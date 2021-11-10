@@ -43,7 +43,7 @@ Normalmente se usa um `<header>` dentro do `<article>` e também pode ser aconse
 
 Você pode usar uma `<article>` para definir áreas ou regiões para:
 
-- Poste em Foruns
+- Posts em Fóruns
 - Entradas de Blog
 - Artigos
 
@@ -54,15 +54,15 @@ Você pode usar uma `<article>` para definir áreas ou regiões para:
 </article>
 ```
 
-**Nota:** O que se observa é que você pode separa por exemplo um conjunto de articles em uma section, e em cada um desses articles você pode ter outras sections dentro. Por isso acredito que alguns de vocês tenham um pouco de dificuldade para interpretar quando utilizar `<articles>` e `<sections>`. 
+**Nota:** O que se observa é que você pode separar por exemplo um conjunto de articles em uma section, e em cada um desses articles você pode ter outras sections dentro. Por isso acredito que alguns de vocês tenham um pouco de dificuldade para interpretar quando utilizar `<articles>` e `<sections>`. 
 
 ## `<aside>`
 
-O elemento HTML `<aside>` representa uma seção de uma página que consiste de conteúdo que é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo. Essas seções são, muitas vezes, representadas como barras laterais. Elas muitas vezes contem explicações laterais, como a definição de um glossário; conteúdo vagamente relacionado, como avisos; a biografia do autor; ou, em aplicações web, informações de perfil ou links de blogs relacionados.
+O elemento HTML `<aside>` representa uma seção de uma página que consiste de conteúdo que é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo. Essas seções são, muitas vezes, representadas como barras laterais. Elas muitas vezes contém explicações laterais, como a definição de um glossário; conteúdo vagamente relacionado, como avisos; a biografia do autor; ou, em aplicações web, informações de perfil ou links de blogs relacionados.
   
 ``` html
 <aside>
-  <p>Algum conteudo relacionado a um <article></p>
+  <p>Algum conteúdo relacionado a um <article></p>
 </aside>  
 ```
 
@@ -71,7 +71,7 @@ O elemento HTML `<aside>` representa uma seção de uma página que consiste de 
 
 ## `<main>`
 
-Diferente dos elementos `<section>` e `<article>` por exemplo, que não é aconselhável ter mais de um `<main>` por documento, ou defini-lo dentro de um `<article>`. É utilizado basicamente para se dá destaque a um conteúdo, pois define o conteúdo como o principal da página, ou seja, o que deve ser lido primeiro e o que descreve o conteúdo que a página possui.
+Diferente dos elementos `<section>` e `<article>` por exemplo, que não é aconselhável ter mais de um `<main>` por documento, ou definí-lo dentro de um `<article>`. É utilizado basicamente para se dar destaque a um conteúdo, pois define o conteúdo como o principal da página, ou seja, o que deve ser lido primeiro e o que descreve o conteúdo que a página possui.
 
 **Fonte:** https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/main
 
@@ -116,7 +116,7 @@ Diferente dos elementos `<section>` e `<article>` por exemplo, que não é acons
 
 Nesse exemplo vai ficar a critério do time definir o escopo e entendimento de como deve ser interpretado semanticamente "Missão, Visão e Valores". Se cada parte funciona sozinha ou se a mensagem só funciona em conjunto.
 
-Se você entende que a "Missão, Visão e Valores" pertencem ao mesmo contexto, e não faria sentido, por exemplo, usar apenas os Valores de forma insolada em outras partes do site, te sugiro usar um article montado como abaixo:
+Se você entende que a "Missão, Visão e Valores" pertencem ao mesmo contexto, e não faria sentido, por exemplo, usar apenas os Valores de forma isolada em outras partes do site, te sugiro usar um article montado como abaixo:
 
 ``` html
 <article>
@@ -136,7 +136,7 @@ Se você entende que a "Missão, Visão e Valores" pertencem ao mesmo contexto, 
 </article>
 ```
 
-Já se você acredita que é plenamente possível usar apenas a Missão em determinada parte da página e que mesmo insolada ela passaria a mensagem de forma adequada e não depende de Visão e Valores você pode separar "Missão, Visão e Valores" em `<article>` dentro de uma `<section>`, pois o `<article>` funciona de forma independente sem depender do restante do conteúdo ao redor.
+Já se você acredita que é plenamente possível usar apenas a Missão em determinada parte da página e que mesmo isolada ela passaria a mensagem de forma adequada e não depende de Visão e Valores você pode separar "Missão, Visão e Valores" em `<article>` dentro de uma `<section>`, pois o `<article>` funciona de forma independente sem depender do restante do conteúdo ao redor.
 
 ``` html
 <section>
@@ -158,7 +158,7 @@ Já se você acredita que é plenamente possível usar apenas a Missão em deter
 
 ## Validação HTML5
 Conselho o uso das seguintes ferramentas:
-- https://h5validator.appspot.com/dcm/asset 
+- https://h5validator.appspot.com/dcm/asset
 - https://validator.w3.org/
 
 ## Link(s):
